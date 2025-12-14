@@ -9,14 +9,6 @@ __pycache__/
 *.pyo
 *.pyd
 
-# YOLO model weights (large files)
-*.pt
-
-# Generated memory files (can be regenerated)
-biomemory_*.mp4
-biomemory_*.faiss
-biomemory_*.json
-
 # IDE
 .idea/
 .vscode/
@@ -26,6 +18,3 @@ biomemory_*.json
 # OS
 .DS_Store
 Thumbs.db
-
-# Memvid repo (submodule or can be cloned separately)
-memvid_repo/
